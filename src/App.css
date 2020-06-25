@@ -7,6 +7,7 @@ body {
   margin: 0;
   background: #DB6713;
   background: linear-gradient(45deg, #dba013, #df2445);
+  background-repeat: no-repeat;
   font-family: 'Lato', sans-serif;
 }
 
@@ -16,12 +17,16 @@ body {
   font-size: 4.2rem;
   text-align: center;
   font-family: 'Kaushan Script', cursive, 'Times New Roman', Times, serif;
-  padding-top: 10%;
+  /*padding-top: 10%;*/
   display: block;
   
 }
 
-h2{
+.superInner{
+  position: relative;
+}
+
+.superInner h2{
   color: #080808;
   font-family: 'Kaushan Script', cursive, 'Times New Roman', Times, serif;
   margin-top: 0;
@@ -31,7 +36,7 @@ h2{
 
 .Inner{
   position: absolute;
-  margin-left: 30%;
+  margin-left: 35%;
   margin-right: auto;
   background-color: rgba(255,255,255,.3);
   background-color: #080808;
@@ -41,6 +46,20 @@ h2{
   max-width: 50%;
   
 }
+
+.superCounter{
+  position: relative;
+}
+
+.superCounter h2{
+  color: #080808;
+  font-family: 'Kaushan Script', cursive, 'Times New Roman', Times, serif;
+  margin-top: 25%;
+  padding-top: 0;
+  text-decoration: none;
+  font-size: 40px;
+}
+
 
 @media (max-width: 768px) {
   .App{
@@ -52,6 +71,11 @@ h2{
   .Inner {
     width: 50%;
     margin-left: 20%;
+  }
+  .Counter{
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 10px;
   }
 }
 
