@@ -22,7 +22,7 @@ class App extends React.Component {
 
   getTiming() {
     const currentTime = new Date();
-    const fromDate = new Date ("Apr 27, 2020 17:08:00").getTime();
+    const fromDate = new Date ("Aug 27, 2020 10:00:00").getTime();
     const difference = currentTime - fromDate;
 
     return {
